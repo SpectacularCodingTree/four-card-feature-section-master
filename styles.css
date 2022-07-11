@@ -1,0 +1,40 @@
+body{
+    background-color: hsl(0, 0%, 98%)
+    ;
+    font-family: ;
+    padding: 80px;
+}
+
+
+
+/* TExt top divs */
+
+.textTop{
+    /* margin: auto; */
+    
+    margin-left: 600px;
+    
+}
+
+.textTop span{
+    font-size: 39px;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+
+}
+
+.textTop h3{
+    font-size: 39px;
+    font-weight: 700;
+    color: hsl(234, 12%, 34%);
+}
+
+.textTop p{
+    width: 500px;
+    text-align: center;
+    color: hsl(229, 6%, 66%)
+
+
+
+/* Cards divs */
