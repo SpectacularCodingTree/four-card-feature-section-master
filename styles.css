@@ -1,40 +1,129 @@
-body{
-    background-color: hsl(0, 0%, 98%)
-    ;
-    font-family: ;
-    padding: 80px;
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: ;
+  padding: 80px;
 }
-
-
 
 /* TExt top divs */
 
-.textTop{
-    /* margin: auto; */
-    
-    margin-left: 600px;
-    
+.textTop {
+  /* margin: auto; */
+
+  margin-left: 600px;
 }
 
-.textTop span{
-    font-size: 39px;
-    font-weight: 100;
-    color: black;
-    text-align: center;
-
+.textTop span {
+  font-size: 39px;
+  font-weight: 100;
+  color: black;
+  text-align: center;
 }
 
-.textTop h3{
-    font-size: 39px;
-    font-weight: 700;
-    color: hsl(234, 12%, 34%);
+.textTop h3 {
+  font-size: 39px;
+  font-weight: 700;
+  color: hsl(234, 12%, 34%);
 }
 
-.textTop p{
-    width: 500px;
-    text-align: center;
-    color: hsl(229, 6%, 66%)
-
-
-
+.textTop p {
+  width: 500px;
+  text-align: center;
+  color: hsl(229, 6%, 66%);
+}
 /* Cards divs */
+
+.cardSupervisor {
+  background-color:  white;
+  width: 340px;
+  height: 250px;
+  position: relative;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cardSupervisor h1{
+    font-size: x-large;
+    color:  hsl(234, 12%, 34%);
+
+}
+
+.cardSupervisor p{
+    color: hsl(229, 6%, 66%);
+}
+
+.imgPosition{
+    bottom: 20px;
+    right: 25px;
+    position: absolute;
+}
+
+
+/* Builder Card divider   Doses div = dividers??? */
+
+.cardBuilder{
+    background-color:  white;
+    width: 340px;
+    height: 250px;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cardBuilder h1{
+    font-size: x-large;
+    color:  hsl(234, 12%, 34%);
+}
+
+.cardBuilder p{
+    color: hsl(229, 6%, 66%);
+}
+
+
+.imgPostion{
+    bottom: 20px;
+    right: 25px;
+    position: absolute;
+
+}
+
+
+/* Karma div */
+
+.cardKarma{
+    background-color:  white;
+    width: 340px;
+    height: 250px;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cardKarma h1{
+    font-size: x-large;
+    color:  hsl(234, 12%, 34%);
+}
+
+.cardKarma p{
+    color: hsl(229, 6%, 66%);
+}
+
+
+/* Card Calculator */
+
+.cardCalculator{
+    background-color: white ;
+    width: 340px ;
+    height: 250px ;
+    position: relative;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.cardCalculator h1{
+    color:  hsl(234, 12%, 34%);
+    font-size: x-large;
+}
+
+.cardCalculator{
+    color: hsl(229, 6%, 66%);
+}
