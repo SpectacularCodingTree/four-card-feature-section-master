@@ -23,6 +23,7 @@ body {
   font-weight: 700;
   color: hsl(234, 12%, 34%);
   width: fit-content;
+  margin: auto;
 }
 
 .textTop p {
@@ -30,138 +31,127 @@ body {
   text-align: center;
   width: fit-content;
   color: hsl(229, 6%, 66%);
+  margin: auto;
 }
 /* Cards divs */
 
-
 /* Massive card div */
 
-.massiveCard{
-    position: relative;
-    margin-left: 350px;
+.massiveCard {
+  position: relative;
+  margin-left: 350px;
 }
-
-
-
-
-
 
 /* Supervisor div */
 
 .cardSupervisor {
-  background-color:  white;
-  width: 340px;
+  background-color: white;
   height: 250px;
   position: relative;
+  width: 100%;
   padding: 30px;
   border-radius: 10px;
-  top: 180px;
-  left: -23px;
   box-shadow: -1px 10px 27px 2px rgb(59 57 57 / 27%);
+  border-top: 3px solid hsl(180, 62%, 55%);
 }
 
-.cardSupervisor h1{
-    font-size: x-large;
-    color:  hsl(234, 12%, 34%);
-
+.imgPosition {
+  bottom: 20px;
+  right: 25px;
+  position: absolute;
 }
-
-.cardSupervisor p{
-    color: hsl(229, 6%, 66%);
-}
-
-.imgPosition{
-    bottom: 20px;
-    right: 25px;
-    position: absolute;
-}
-
 
 /* Builder Card divider   Doses div = dividers??? */
 
-.cardBuilder{
-    background-color:  white;
-    width: 340px;
-    height: 250px;
-    position: relative;
-    padding: 30px;
-    border-radius: 10px;
-    left: 350px;
-    top: -200px;
-     box-shadow: -1px 10px 27px 2px rgb(59 57 57 / 27%);
+.cardBuilder {
+  background-color: white;
+  height: 250px;
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: -1px 10px 27px 2px rgb(59 57 57 / 27%);
+  border-top: 3px solid hsl(0, 78%, 62%);
 }
 
-.cardBuilder h1{
-    font-size: x-large;
-    color:  hsl(234, 12%, 34%);
+.imgPostion {
+  bottom: 20px;
+  right: 25px;
+  position: absolute;
 }
-
-.cardBuilder p{
-    color: hsl(229, 6%, 66%);
-}
-
-
-.imgPostion{
-    bottom: 20px;
-    right: 25px;
-    position: absolute;
-
-}
-
 
 /* Karma div */
 
-.cardKarma{
-    background-color:  white;
-    width: 340px;
-    height: 250px;
-    position: relative;
-    padding: 30px;
-    border-radius: 10px;
-    left: 350px;
-    top: -162px;
-     box-shadow: -1px 10px 27px 2px rgb(59 57 57 / 27%);
+.cardKarma {
+  background-color: white;
+  /* width: 340px; */
+  height: 250px;
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  /* left: 350px;
+    top: -162px; */
+  box-shadow: -1px 10px 27px 2px rgb(59 57 57 / 27%);
+  border-top: 3px solid hsl(34, 97%, 64%);
 }
-
-.cardKarma h1{
-    font-size: x-large;
-    color:  hsl(234, 12%, 34%);
-}
-
-.cardKarma p{
-    color: hsl(229, 6%, 66%);
-}
-
 
 /* Card Calculator */
 
-.cardCalculator{
-    background-color: white ;
-    width: 340px ;
-    height: 250px ;
+.cardCalculator {
+  background-color: white;
+  height: 250px;
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  padding: 30px;
+  box-shadow: -1px 10px 27px 2px rgb(59 57 57 / 27%);
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.cardCalculatorMD {
+  background-color: white;
+  height: 250px;
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+  padding: 30px;
+  box-shadow: -1px 10px 27px 2px rgb(59 57 57 / 27%);
+  border-top: 3px solid hsl(212, 86%, 64%);
+  display: none;
+}
+
+h1 {
+  color: hsl(234, 12%, 34%);
+  font-size: x-large;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+.cardCalculator {
+  color: hsl(229, 6%, 66%);
+}
+
+@media only screen and (max-width: 1199px) {
+  .cardCalculatorMD {
+    background-color: white;
+    height: 250px;
     position: relative;
     border-radius: 10px;
+    width: 100%;
     padding: 30px;
-    left: 727px;
-    bottom: 569px;
-     box-shadow: -1px 10px 27px 2px rgb(59 57 57 / 27%);
+    box-shadow: -1px 10px 27px 2px rgb(59 57 57 / 27%);
+    border-top: 3px solid hsl(212, 86%, 64%);
+    display: block;
+  }
+
+  .cardCalculator {
+    display: none;
+  }
 }
 
-.cardCalculator h1{
-    color:  hsl(234, 12%, 34%);
-    font-size: x-large;
-}
-
-.cardCalculator{
-    color: hsl(229, 6%, 66%);
-}
-
-
-
-
-/* @media only screen and (max-width: 576px) {
-    .textTop{
-        margin-left: 0px;
-        text-align: center;
-    }
+/* .marginPosition{
+    margin-left: 100px;
 } */
