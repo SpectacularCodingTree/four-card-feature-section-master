@@ -154,3 +154,13 @@ body {
 .cardCalculator{
     color: hsl(229, 6%, 66%);
 }
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .textTop{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
